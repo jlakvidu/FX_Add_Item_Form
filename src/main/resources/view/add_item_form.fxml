@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AddItemFormController">
+   <children>
+      <JFXTextField fx:id="txtItemCode" layoutX="196.0" layoutY="79.0" promptText="ItemCode" />
+      <JFXTextField fx:id="txtDescription" layoutX="196.0" layoutY="131.0" promptText="Description" />
+      <JFXTextField fx:id="txtPackSize" layoutX="196.0" layoutY="174.0" promptText="PackSize" />
+      <JFXTextField fx:id="txtUnitPrice" layoutX="196.0" layoutY="221.0" promptText="UnitPrice" />
+      <JFXTextField fx:id="txtQtyOnHand" layoutX="196.0" layoutY="274.0" promptText="QtyOnHand" />
+      <JFXButton layoutX="413.0" layoutY="339.0" onAction="#btnAddOnAction" text="Add" />
+   </children>
+</AnchorPane>

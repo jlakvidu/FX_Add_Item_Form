@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DashboardController">
+   <children>
+      <JFXButton layoutX="238.0" layoutY="77.0" onAction="#btnAddItemFormOnAction" text="Add Item" />
+      <JFXButton layoutX="238.0" layoutY="111.0" onAction="#btnDeleteItemFormOnAction" text="Delete Item" />
+      <JFXButton layoutX="238.0" layoutY="174.0" onAction="#btnUpdateItemFormOnAction" text="Update Item" />
+      <JFXButton layoutX="251.0" layoutY="228.0" onAction="#btnSearchItemFormOnAction" text="Search Item" />
+      <JFXButton layoutX="260.0" layoutY="276.0" onAction="#btnViewItemFormOnAction" text="View Item" />
+   </children>
+</AnchorPane>
